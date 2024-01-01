@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "all": "^0.0.0",
     "color": "^4.2.3",
     "colors": "^1.4.0",
     "figlet": "^1.7.0",
