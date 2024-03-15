@@ -6,6 +6,11 @@ import DoubleDice from "./DoubleDice";
 import Heading from "./Heading";
 import ShoppingList from "./ShoppingList";
 import PropertyList from "./PropertyList";
+import Clicker from "./Clicker";
+import Form from "./Form";
+import Counter from "./Counter";
+import Toggler from "./Toggler";
+import TogglerCounter from "./TogglerCounter";
 
 const data = [
   { name: "eggs", quantity: 12, completed: false },
@@ -25,8 +30,12 @@ const properties = [
 function App() {
   return (
     <div>
-      <PropertyList properties={properties} />
-
+      <TogglerCounter />
+      {/* <Toggler /> */}
+      {/* <Counter /> */}
+      {/* <Form /> */}
+      {/* <Clicker /> */}
+      {/* <PropertyList properties={properties} /> */}
       {/* <ShoppingList items={data} /> */}
       {/* <Heading color="pink" title="FORZA FERRARI" />
       <Greeter name="World" />
